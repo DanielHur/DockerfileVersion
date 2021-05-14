@@ -1,7 +1,7 @@
 version: '3'
 services:
   app1:
-    build: ./app1
+    build: ./versionproduccion
     networks:
       redpr:
         aliases:
@@ -9,7 +9,7 @@ services:
     ports:
       - "8989:8989"
   app2:
-    build: ./app2
+    build: ./versionlatest
     networks:
       redpr:
         aliases:
